@@ -10,7 +10,7 @@
           <p>帮助跨境卖家优化运营流程，提升销售效率，赋能全球化业务拓展</p>
         </el-col>
         <el-col :span="12" class="video-demo">
-          <video autoplay muted loop playsinline class="dashboard-video" style="width: 100%; max-width: 600px; height: auto;">
+          <video autoplay muted loop playsinline class="dashboard-video" style="width: 100%; max-width: 1200px; height: auto;">
             <source src="../assets/videos/首页.mp4" type="video/mp4" />
             您的浏览器不支持视频播放。
           </video>
@@ -161,7 +161,7 @@ const features = ref([
   { icon: '🔧', title: '高效运营工具', description: '实时监控关键词排名，竞品监控，ChatGPT文案等工具，辅助运营决策' },
   { icon: '💬', title: '售后客服管理', description: '同步站内信与邮件，自动分类分析，提高客户满意度' },
   { icon: '⚠️', title: '风险全维管理', description: '支持库容/库存/Listing/店铺等多维度管理，设置数据权限' },
-  { icon: '📱', title: '手机端随时用', description: '支持APP端随时查看运营数据，消息通知及时推送' },
+  { icon: '📱', title: '手机端随时用', description: '支持APP端随时查看运营详细数据，消息通知及时推送' },
 ]);
 </script>
 
@@ -209,6 +209,7 @@ const features = ref([
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 10px;
+  margin-top: 30px;
 }
 
 .why-choose {

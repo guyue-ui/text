@@ -6,22 +6,6 @@
       </el-header>
       <el-main>
         <el-row :gutter="20">
-          <!-- 联系方式 -->
-          <el-col :span="12">
-            <h3>联系方式</h3>
-            <p>
-              <strong>电话：</strong> <a href="tel:123456789">123-456-789</a><br />
-              <strong>邮箱：</strong> <a href="mailto:info@yourcompany.com">info@yourcompany.com</a><br />
-              <strong>地址：</strong> 北京市朝阳区XXX路XXX号
-            </p>
-            <h3>关注我们</h3>
-            <el-space>
-              <el-link href="#" icon="el-icon-facebook" target="_blank">Facebook</el-link>
-              <el-link href="#" icon="el-icon-twitter" target="_blank">Twitter</el-link>
-              <el-link href="#" icon="el-icon-linkedin" target="_blank">LinkedIn</el-link>
-            </el-space>
-          </el-col>
-
           <!-- 在线留言 -->
           <el-col :span="12">
             <h3>在线留言</h3>

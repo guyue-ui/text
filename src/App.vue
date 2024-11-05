@@ -4,7 +4,7 @@
     <el-header>
       <el-row type="flex" justify="space-between" align="middle">
         <div class="logo">
-          <router-link to="/">纳仓ERP</router-link>
+          <h1> 纳仓ERP </h1>
         </div>
         <el-menu :default-active="activeMenu" mode="horizontal" router>
           <el-menu-item index="/">首页</el-menu-item>
