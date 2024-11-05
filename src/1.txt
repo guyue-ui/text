@@ -1,0 +1,67 @@
+--------------------------------------------------------------------------------
+File: D:\代码\WebStorm\amazon-spapi-website\src\views\Contact.vue
+<!-- src/views/Contact.vue -->
+
+
+
+--------------------------------------------------------------------------------
+File: D:\代码\WebStorm\amazon-spapi-website\src\views\Home.vue
+
+
+--------------------------------------------------------------------------------
+File: D:\代码\WebStorm\amazon-spapi-website\src\views\Pricing.vue
+<!-- src/views/Pricing.vue -->
+
+
+
+--------------------------------------------------------------------------------
+File: D:\代码\WebStorm\amazon-spapi-website\src\views\Privacy.vue
+<!-- src/views/Privacy.vue -->
+
+
+
+--------------------------------------------------------------------------------
+File: D:\代码\WebStorm\amazon-spapi-website\src\views\Services.vue
+<!-- src/views/Services.vue -->
+
+
+
+--------------------------------------------------------------------------------
+
+File: D:\代码\WebStorm\amazon-spapi-website\src\main.js
+// src/main.js
+
+
+
+--------------------------------------------------------------------------------
+File: D:\代码\WebStorm\amazon-spapi-website\src\router\index.js
+// src/router/index.js
+
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from '../views/Home.vue';
+import About from '../views/About.vue';
+import Services from '../views/Services.vue';
+import Pricing from '../views/Pricing.vue';
+import Contact from '../views/Contact.vue';
+import Privacy from '../views/Privacy.vue';
+
+const routes = [
+    { path: '/', name: 'Home', component: Home },
+    { path: '/about', name: 'About', component: About },
+    { path: '/services', name: 'Services', component: Services },
+    { path: '/pricing', name: 'Pricing', component: Pricing },
+    { path: '/contact', name: 'Contact', component: Contact },
+    { path: '/privacy', name: 'Privacy', component: Privacy },
+];
+
+const router = createRouter({
+    history: createWebHistory(),
+    routes,
+});
+
+export default router;
+
+--------------------------------------------------------------------------------
+
+这是目前项目的代码，不要使用Navbar.vue导入组件后再导入到App.vue中，而是直接将组件导入到 App.vue
+
